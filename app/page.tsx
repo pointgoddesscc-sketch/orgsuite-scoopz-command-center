@@ -3,18 +3,18 @@
 import OrgsuiteScoopzTrackerCard from './components/OrgsuiteScoopzTrackerCard';
 
 const CONNECTORS = [
-  { name: 'Google Calendar', icon: '📅', status: 'Connected' },
-  { name: 'Calendly', icon: '🔗', status: 'Connected' },
-  { name: 'Linear', icon: '📋', status: 'Connected' },
-  { name: 'Outlook', icon: '📧', status: 'Connected' },
-  { name: 'Microsoft Teams', icon: '👥', status: 'Connected' },
-  { name: 'Figma', icon: '🎨', status: 'Connected' },
-  { name: 'Notion', icon: '📝', status: 'Connected' },
-  { name: 'Vercel', icon: '▲', status: 'Connected' },
-  { name: 'Gmail', icon: '✉️', status: 'Connected' },
-  { name: 'GitHub', icon: '🐙', status: 'Connected' },
-  { name: 'Stripe', icon: '💳', status: 'Connected' },
-  { name: 'Canva', icon: '🖌️', status: 'Connected' },
+  { name: 'Google Calendar', icon: '📅' },
+  { name: 'Calendly', icon: '🔗' },
+  { name: 'Linear', icon: '📋' },
+  { name: 'Outlook', icon: '📧' },
+  { name: 'Microsoft Teams', icon: '👥' },
+  { name: 'Figma', icon: '🎨' },
+  { name: 'Notion', icon: '📝' },
+  { name: 'Vercel', icon: '▲' },
+  { name: 'Gmail', icon: '✉️' },
+  { name: 'GitHub', icon: '🐙' },
+  { name: 'Stripe', icon: '💳' },
+  { name: 'Canva', icon: '🖌️' },
 ];
 
 export default function Home() {
@@ -26,10 +26,17 @@ export default function Home() {
           <span style={{ fontWeight: 700, fontSize: 15 }}>ORGSUITE</span>
         </div>
         <h1 style={{ fontSize: 32, fontWeight: 800, marginBottom: 8 }}>Command Center</h1>
-        <p style={{ color: '#94a3b8', fontSize: 16, maxWidth: 520, margin: '0 auto' }}>
-          Unified AI hub for business marketing & website development.
-          Scoopz growth tracker + every connector live and ready.
+        <p style={{ color: '#94a3b8', fontSize: 16, maxWidth: 560, margin: '0 auto 12px' }}>
+          Unified AI workplace for business marketing & website development.<br />
+          Scoopz growth • All connectors live • Hosted in our workspace
         </p>
+        <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap', fontSize: 13, color: '#64748b' }}>
+          <span>@orgsuite_51bc9</span>
+          <span>•</span>
+          <span>Chicago, IL</span>
+          <span>•</span>
+          <span>point Goddess cc</span>
+        </div>
       </header>
 
       <section style={{ marginBottom: 48 }}>
@@ -54,25 +61,29 @@ export default function Home() {
         </div>
 
         <div style={{ background: '#1e293b', borderRadius: 16, padding: 24, border: '1px solid #334155' }}>
-          <h2 style={{ fontSize: 18, fontWeight: 600, marginBottom: 12 }}>Live & Accessible</h2>
-          <ul style={{ listStyle: 'none', color: '#94a3b8', fontSize: 14, lineHeight: 1.8 }}>
-            <li>✅ Deployed on Vercel (production)</li>
-            <li>✅ Source on GitHub</li>
-            <li>✅ Offline queue + localStorage</li>
-            <li>✅ Auto reconnect + toasts</li>
-            <li>✅ All 12 connectors status</li>
-            <li>✅ Business marketing ready</li>
-            <li>✅ Full JavaScript documentation</li>
+          <h2 style={{ fontSize: 18, fontWeight: 600, marginBottom: 12 }}>Our Workplace</h2>
+          <ul style={{ listStyle: 'none', color: '#94a3b8', fontSize: 14, lineHeight: 1.9 }}>
+            <li>✅ Live on Vercel (production)</li>
+            <li>✅ GitHub: pointgoddesscc-sketch/orgsuite-scoopz-command-center</li>
+            <li>✅ Linear Project: Orgsuite Scoopz Command Center</li>
+            <li>✅ Scoopz profile: @orgsuite_51bc9 • Chicago</li>
+            <li>✅ Scoopz resources: <a href="http://scoopzapk.com" target="_blank" rel="noopener noreferrer" style={{ color: '#3B82F6' }}>scoopzapk.com</a></li>
+            <li>✅ Offline queue + localStorage + toasts</li>
+            <li>✅ All 12 connectors status monitored</li>
+            <li>✅ Business marketing + JS documentation ready</li>
           </ul>
-          <div style={{ marginTop: 24, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-            <a href="https://github.com/pointgoddesscc-sketch/orgsuite-scoopz-command-center" target="_blank" rel="noopener noreferrer" style={{ background: '#0f172a', color: '#f1f5f9', padding: '10px 16px', borderRadius: 8, fontSize: 13, fontWeight: 600, border: '1px solid #334155' }}>View on GitHub</a>
-            <a href="https://vercel.com/pse-sent" target="_blank" rel="noopener noreferrer" style={{ background: '#3B82F6', color: 'white', padding: '10px 16px', borderRadius: 8, fontSize: 13, fontWeight: 600 }}>Vercel Dashboard</a>
+
+          <div style={{ marginTop: 24, display: 'flex', gap: 10, flexWrap: 'wrap' }}>
+            <a href="https://github.com/pointgoddesscc-sketch/orgsuite-scoopz-command-center" target="_blank" rel="noopener noreferrer" style={{ background: '#0f172a', color: '#f1f5f9', padding: '10px 14px', borderRadius: 8, fontSize: 13, fontWeight: 600, border: '1px solid #334155' }}>GitHub</a>
+            <a href="https://linear.app/pse-management/project/orgsuite-scoopz-command-center-a43a3fef1fe4" target="_blank" rel="noopener noreferrer" style={{ background: '#0f172a', color: '#f1f5f9', padding: '10px 14px', borderRadius: 8, fontSize: 13, fontWeight: 600, border: '1px solid #334155' }}>Linear</a>
+            <a href="http://scoopzapk.com" target="_blank" rel="noopener noreferrer" style={{ background: '#3B82F6', color: 'white', padding: '10px 14px', borderRadius: 8, fontSize: 13, fontWeight: 600 }}>Scoopz APK</a>
+            <a href="https://vercel.com/pse-sent" target="_blank" rel="noopener noreferrer" style={{ background: '#3B82F6', color: 'white', padding: '10px 14px', borderRadius: 8, fontSize: 13, fontWeight: 600 }}>Vercel</a>
           </div>
         </div>
       </section>
 
       <footer style={{ marginTop: 64, textAlign: 'center', color: '#64748b', fontSize: 13 }}>
-        Orgsuite Command Center · Built for business marketing & website development · 2026
+        Orgsuite Command Center · point Goddess cc · Chicago · Business marketing & website development · 2026
       </footer>
     </main>
   );
