@@ -1,0 +1,52 @@
+# Netscape HTTP Cookie File
+# Orgsuite Scoopz Command Center – Ready-to-Paste Strong Cookies
+# Business & Marketing Edition
+# ============================================================
+# INSTRUCTIONS (copy-paste ready):
+# 1. Open this whole block
+# 2. Replace only the REPLACE_... values with real cookies from browser DevTools
+# 3. Copy the entire result
+# 4. In HTTP Customization → Import Cookie → Clipboard → Paste
+# 5. Done. Session cookies will be sent only to matching hostnames.
+#
+# Security: All are session cookies (expiry 0). They disappear when browser closes.
+# Never put real values into Git.
+
+# GitHub
+.github.com	TRUE	/	TRUE	0	_gh_sess	REPLACE_GH_SESS
+.github.com	TRUE	/	TRUE	0	user_session	REPLACE_USER_SESSION
+.github.com	TRUE	/	TRUE	0	logged_in	yes
+
+# Vercel
+.vercel.com	TRUE	/	TRUE	0	_vercel_jwt	REPLACE_VERCEL_JWT
+.vercel.app	TRUE	/	TRUE	0	_vercel_share	REPLACE_VERCEL_SHARE
+
+# Google (Calendar + marketing)
+.google.com	TRUE	/	TRUE	0	SID	REPLACE_SID
+.google.com	TRUE	/	TRUE	0	HSID	REPLACE_HSID
+.google.com	TRUE	/	TRUE	0	SSID	REPLACE_SSID
+.google.com	TRUE	/	TRUE	0	APISID	REPLACE_APISID
+.google.com	TRUE	/	TRUE	0	SAPISID	REPLACE_SAPISID
+
+# Notion
+.notion.so	TRUE	/	TRUE	0	token_v2	REPLACE_NOTION_TOKEN
+.notion.so	TRUE	/	TRUE	0	notion_browser_id	REPLACE_NOTION_BROWSER
+
+# Linear
+.linear.app	TRUE	/	TRUE	0	linear_session	REPLACE_LINEAR_SESSION
+
+# Stripe
+.stripe.com	TRUE	/	TRUE	0	stripe.csrf	REPLACE_STRIPE_CSRF
+
+# Microsoft (Outlook + Teams)
+.microsoft.com	TRUE	/	TRUE	0	ESTSAUTH	REPLACE_ESTSAUTH
+.live.com	TRUE	/	TRUE	0	WLSSC	REPLACE_WLSSC
+
+# Canva
+.canva.com	TRUE	/	TRUE	0	canva_session	REPLACE_CANVA
+
+# Figma
+.figma.com	TRUE	/	TRUE	0	figma.session	REPLACE_FIGMA
+
+# End of ready-to-paste strong cookies
+# After real values are inserted, re-import in HTTP Customization.
