@@ -1,0 +1,75 @@
+# Netscape HTTP Cookie File
+# ============================================================
+# Orgsuite Scoopz Command Center – STRONG Company Cookies
+# Business & Marketing Edition (Secure Session Template)
+# ============================================================
+# Generated for Git HTTP Customization + all connectors
+# Format used by .gitcookies, wget, and professional Git clients
+#
+# SECURITY RULES APPLIED:
+# - All entries are session cookies (expiry 0) → disappear when browser closes
+# - Domains marked for HTTPS only
+# - Placeholders only – replace with REAL values from browser DevTools
+# - Never commit real cookie values to Git
+#
+# HOW TO USE:
+# 1. Log into each service in a secure browser
+# 2. DevTools → Application → Cookies → copy real name=value
+# 3. Replace every REPLACE_WITH_REAL_… below
+# 4. Import via Clipboard or File in HTTP Customization
+# 5. Extra headers will be sent only to matching hostnames
+#
+# Domain flags: TRUE = include subdomains | Secure = HTTPS only | Expiry 0 = session
+
+# === GitHub (private repos + marketing code) ===
+.github.com	TRUE	/	TRUE	0	_gh_sess	REPLACE_WITH_REAL_GH_SESS
+.github.com	TRUE	/	TRUE	0	user_session	REPLACE_WITH_REAL_USER_SESSION
+.github.com	TRUE	/	TRUE	0	logged_in	yes
+.github.com	TRUE	/	TRUE	0	dotcom_user	REPLACE_WITH_REAL_USERNAME
+
+# === Vercel (deployments + marketing sites) ===
+.vercel.com	TRUE	/	TRUE	0	_vercel_jwt	REPLACE_WITH_REAL_VERCEL_JWT
+.vercel.app	TRUE	/	TRUE	0	_vercel_share	REPLACE_WITH_REAL_SHARE_TOKEN
+.vercel.com	TRUE	/	TRUE	0	authorization	REPLACE_WITH_REAL_AUTH
+
+# === Google (Calendar + Cloud Source + marketing analytics) ===
+.google.com	TRUE	/	TRUE	0	SID	REPLACE_WITH_REAL_SID
+.google.com	TRUE	/	TRUE	0	HSID	REPLACE_WITH_REAL_HSID
+.google.com	TRUE	/	TRUE	0	SSID	REPLACE_WITH_REAL_SSID
+.google.com	TRUE	/	TRUE	0	APISID	REPLACE_WITH_REAL_APISID
+.google.com	TRUE	/	TRUE	0	SAPISID	REPLACE_WITH_REAL_SAPISID
+.google.com	TRUE	/	TRUE	0	__Secure-1PSID	REPLACE_WITH_REAL_1PSID
+
+# === Notion (workplace knowledge base) ===
+.notion.so	TRUE	/	TRUE	0	token_v2	REPLACE_WITH_REAL_TOKEN_V2
+.notion.so	TRUE	/	TRUE	0	notion_browser_id	REPLACE_WITH_REAL_BROWSER_ID
+.notion.so	TRUE	/	TRUE	0	notion_user_id	REPLACE_WITH_REAL_USER_ID
+
+# === Linear (project + marketing task tracking) ===
+.linear.app	TRUE	/	TRUE	0	linear_session	REPLACE_WITH_REAL_LINEAR_SESSION
+.linear.app	TRUE	/	TRUE	0	__Secure-next-auth.session-token	REPLACE_WITH_REAL_NEXTAUTH
+
+# === Stripe (payments + Creator Fund readiness) ===
+.stripe.com	TRUE	/	TRUE	0	stripe.csrf	REPLACE_WITH_REAL_STRIPE_CSRF
+.stripe.com	TRUE	/	TRUE	0	__Secure-sid	REPLACE_WITH_REAL_STRIPE_SID
+
+# === Twilio (company messaging + marketing SMS/WhatsApp) ===
+# Twilio does not normally use browser cookies for API auth.
+# Use Account SID + Auth Token (or API Keys) in environment variables.
+# This entry is a placeholder for any future Twilio dashboard cookie if needed.
+.api.twilio.com	TRUE	/	TRUE	0	twilio_session	REPLACE_WITH_REAL_TWILIO_SESSION
+
+# === Microsoft (Outlook + Teams) ===
+.microsoft.com	TRUE	/	TRUE	0	ESTSAUTH	REPLACE_WITH_REAL_ESTSAUTH
+.microsoft.com	TRUE	/	TRUE	0	ESTSAUTHPERSISTENT	REPLACE_WITH_REAL_PERSISTENT
+.live.com	TRUE	/	TRUE	0	WLSSC	REPLACE_WITH_REAL_WLSSC
+
+# === Canva (design assets for marketing) ===
+.canva.com	TRUE	/	TRUE	0	canva_session	REPLACE_WITH_REAL_CANVA_SESSION
+
+# === Figma (design system) ===
+.figma.com	TRUE	/	TRUE	0	figma.session	REPLACE_WITH_REAL_FIGMA_SESSION
+
+# End of Orgsuite STRONG Company Cookies
+# After real values are inserted, these become production-ready session cookies
+# for the full marketing + workplace stack.
