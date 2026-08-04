@@ -1,0 +1,46 @@
+# Netscape HTTP Cookie File
+# Orgsuite Scoopz Command Center – Workplace Cookie Template
+# Generated for Git HTTP Customization (Working Copy / Git clients)
+# Format also used by .gitcookies and wget
+#
+# HOW TO USE:
+# 1. Replace the example values with real cookies from your browser
+#    (DevTools → Application → Cookies → copy name & value)
+# 2. In the Import Cookie menu choose Clipboard or File
+# 3. Paste / select this file
+# 4. Hostname matching happens automatically for the domains listed
+#
+# Domain flags:
+# TRUE  = include subdomains
+# FALSE = exact host only
+# Secure flag (4th field) TRUE = HTTPS only
+# Expiry 0 = session cookie
+
+# === GitHub (for private repos) ===
+.github.com	TRUE	/	TRUE	0	_gh_sess	REPLACE_WITH_REAL_SESSION
+.github.com	TRUE	/	TRUE	0	user_session	REPLACE_WITH_REAL_USER_SESSION
+.github.com	TRUE	/	TRUE	0	logged_in	yes
+
+# === Vercel (protected deployments / team) ===
+.vercel.com	TRUE	/	TRUE	0	_vercel_jwt	REPLACE_WITH_REAL_JWT
+.vercel.app	TRUE	/	TRUE	0	_vercel_share	REPLACE_WITH_REAL_SHARE_TOKEN
+
+# === Google (Calendar / Cloud Source Repositories) ===
+.google.com	TRUE	/	TRUE	0	SID	REPLACE_WITH_REAL_SID
+.google.com	TRUE	/	TRUE	0	HSID	REPLACE_WITH_REAL_HSID
+.google.com	TRUE	/	TRUE	0	SSID	REPLACE_WITH_REAL_SSID
+.google.com	TRUE	/	TRUE	0	APISID	REPLACE_WITH_REAL_APISID
+.google.com	TRUE	/	TRUE	0	SAPISID	REPLACE_WITH_REAL_SAPISID
+
+# === Notion ===
+.notion.so	TRUE	/	TRUE	0	token_v2	REPLACE_WITH_REAL_TOKEN_V2
+.notion.so	TRUE	/	TRUE	0	notion_browser_id	REPLACE_WITH_REAL_BROWSER_ID
+
+# === Linear ===
+.linear.app	TRUE	/	TRUE	0	linear_session	REPLACE_WITH_REAL_SESSION
+
+# === Stripe (if needed for dashboard API) ===
+.stripe.com	TRUE	/	TRUE	0	stripe.csrf	REPLACE_WITH_REAL_CSRF
+
+# End of Orgsuite Workplace Cookie Template
+# After import, Extra headers are sent with HTTP requests to matching hostnames.
